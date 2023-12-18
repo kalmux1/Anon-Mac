@@ -12,7 +12,9 @@ Infc=$(grep -n 2 if.txt)
 
 echo $Infc
 
-echo ${Infc:2:10}
+cl=echo ${Infc:2:10}
+
+echo $cl
 
 #interface=${Infc:2:10}
 #echo $interface
