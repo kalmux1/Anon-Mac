@@ -12,6 +12,7 @@ Infc=$(grep -n 2 if.txt)
 
 
 interface=${Infc:2:10}
+echo "$interface"
 
 Mac=$(macchanger -s "$interface")
 
