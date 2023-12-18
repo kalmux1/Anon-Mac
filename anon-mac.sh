@@ -14,8 +14,8 @@ echo $Infc
 
 
 
-#interface=${Infc:2:10}
-#echo "$interface"
+interface=${Infc:2:10}
+echo $interface
 
 #Mac=$(macchanger -s "$interface")
 
