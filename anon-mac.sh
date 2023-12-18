@@ -9,10 +9,7 @@ tool=$(sudo apt install macchanger)
 Mac=$(ifconfig > mac.txt)
 
 #
-
-interface=${Mac:0}
-
-echo " $interface"
+ echo "$Mac"
 
 
 
