@@ -10,7 +10,7 @@ Mac=$(ifconfig)
 
 #
 
-interface=${Mac:0}
+interface=${Mac:0:5}
 
 echo "$interface"
 
