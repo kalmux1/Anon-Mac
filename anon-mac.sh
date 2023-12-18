@@ -15,6 +15,8 @@ interface=${Infc:2:10}
 
 Mac=$(macchanger -s $interface)
 
+echo "$Mac"
+
 
 
 
