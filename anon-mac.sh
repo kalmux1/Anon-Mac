@@ -6,11 +6,12 @@ tool=$(sudo apt-get install macchanger)
 
 # Storing details from ifconfig command to mac.txt file
 
-Mac=$(ifconfig -s)
+file=$(ifconfig -s > if.txt)
+Infc=$(grep -n 2 if.txt)
 
-#
 
-interface=${Mac:0:8}
+
+interface=${Infc:2:10}
 
 echo "$interface"
 
