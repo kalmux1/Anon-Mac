@@ -6,11 +6,11 @@ tool=$(sudo apt-get install macchanger)
 
 # Storing details from ifconfig command to mac.txt file
 
-Mac=$(ifconfig)
+Mac=$(ifconfig -s)
 
 #
 
-interface=${Mac:0:5}
+interface=${Mac:0:8}
 
 echo "$interface"
 
