@@ -20,7 +20,7 @@ cl=(${Infc:2:10})
 
 echo $cl
 
-echo "macchanger -s $cl"
+echo "macchanger -s $cl" > exc.txt
 
 
 #$(macchanger -s $cl)
