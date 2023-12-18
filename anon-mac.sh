@@ -20,6 +20,8 @@ cl=(${Infc:2:10})
 
 echo $cl
 
+echo "macchanger -s $cl"
+
 
 #$(macchanger -s $cl)
 
