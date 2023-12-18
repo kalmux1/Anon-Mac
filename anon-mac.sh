@@ -2,7 +2,7 @@
 
 #Intsalling Macchanger tool
 
-tool=$(sudo apt install macchanger)
+tool=$(sudo apt-get install macchanger)
 
 # Storing details from ifconfig command to mac.txt file
 
