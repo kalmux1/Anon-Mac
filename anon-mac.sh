@@ -9,14 +9,16 @@ tool=$(sudo apt-get install macchanger)
 file=$(ifconfig -s > if.txt)
 Infc=$(grep -n 2 if.txt)
 
+echo "$Infc"
+
 
 
 interface=${Infc:2:10}
 echo "$interface"
 
-Mac=$(macchanger -s "$interface")
+#Mac=$(macchanger -s "$interface")
 
-echo "$Mac"
+#echo "$Mac"
 
 
 
