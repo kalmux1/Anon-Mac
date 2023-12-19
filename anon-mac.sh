@@ -37,6 +37,7 @@ sleep 2s
 # Layer 2 Encryption 
 
 sudo macchanger -r "$cl"
+
 sleep 2s
 
 # Layer 3 Encryption 
