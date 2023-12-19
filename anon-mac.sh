@@ -12,13 +12,12 @@ file=$(ifconfig -s > if.txt)
 
 Infc=$(grep -n 2 if.txt)
 
-echo $Infc
 
 # storing interface name into cl var 
 
 cl=(${Infc:2:10})
 
-echo $cl
+# showing current mac and permanent mac using macchanger
 
 macchanger -s "$cl"
 
