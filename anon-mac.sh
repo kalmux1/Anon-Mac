@@ -7,7 +7,7 @@ tool=$(sudo apt-get install macchanger)
 
 # Creating a support Directory 
 
-mkdir logs
+log=$(mkdir logs)
 
 # Storing details from ifconfig command to ifs.txt file
 
@@ -21,6 +21,8 @@ Infc=$(grep -n 2 logs/ifs.txt)
 # storing interface name into cl var 
 
 cl=(${Infc:2:10})
+
+echo $cl
 
 # showing current mac and permanent mac using macchanger
 
