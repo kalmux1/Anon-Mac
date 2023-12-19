@@ -6,7 +6,7 @@ A bash script that will change your MAC address and provide you with 3 layer enc
 
 # **INSTALLATION PROCESS**
 
-# Open Your Terminal And Run Following Commands
+**Open Your Terminal And Run Following Commands**
 
 
 # Update & Upgarde Your Repositories
