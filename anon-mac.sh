@@ -26,13 +26,18 @@ cl=(${Infc:2:10})
 
 sudo macchanger -s "$cl"
 
+sleep 2s
+
 # Layer 1 Encryption 
 
 sudo macchanger -r "$cl"
 
+sleep 2s
+
 # Layer 2 Encryption 
 
 sudo macchanger -r "$cl"
+sleep 2s
 
 # Layer 3 Encryption 
 
