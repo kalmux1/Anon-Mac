@@ -33,6 +33,7 @@ cl=(${Infc:2:10})
 
 # showing current mac and permanent mac using macchanger
 
+echo "Current Macc Address Details"
 sudo macchanger -s "$cl"
 
 sleep 2s
@@ -40,6 +41,7 @@ sleep 2s
 echo " "
 
 # Layer 1 Encryption 
+echo "Encrypting Your Macc Address {Level 1}"
 
 sudo macchanger -r "$cl"
 
@@ -48,6 +50,7 @@ sleep 2s
 echo " "
 
 # Layer 2 Encryption 
+echo "Encrypting Your Macc Address {Level 2}"
 
 sudo macchanger -r "$cl"
 
@@ -56,6 +59,7 @@ sleep 2s
 echo " "
 
 # Layer 3 Encryption 
+echo "Encrypting Your Macc Address {Level 3}"
 
 sudo macchanger -r "$cl"
 
