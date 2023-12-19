@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# Banner Display
 
 figlet -f slant.flf -c "Anon-Mac" 
 
+# Author Details
+
 echo "                         Cretaed By KALMUX       v1.0"
+echo " "
 
 #Intsalling Macchanger tool
 
