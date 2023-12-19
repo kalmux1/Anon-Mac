@@ -28,17 +28,23 @@ sudo macchanger -s "$cl"
 
 sleep 2s
 
+echo " "
+
 # Layer 1 Encryption 
 
 sudo macchanger -r "$cl"
 
 sleep 2s
 
+echo " "
+
 # Layer 2 Encryption 
 
 sudo macchanger -r "$cl"
 
 sleep 2s
+
+echo " "
 
 # Layer 3 Encryption 
 
