@@ -3,7 +3,7 @@
 
 figlet -f slant.flf -c "Anon-Mac" 
 
-echo "        Cretaed By KALMUX       v1.0"
+echo "                         Cretaed By KALMUX       v1.0"
 
 #Intsalling Macchanger tool
 
