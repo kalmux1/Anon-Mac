@@ -7,7 +7,7 @@ tool=$(sudo apt-get install macchanger)
 
 # Creating a support Directory 
 
-log=$(mkdir logs)
+mkdir logs
 
 # Storing details from ifconfig command to ifs.txt file
 
@@ -22,7 +22,6 @@ Infc=$(grep -n 2 logs/ifs.txt)
 
 cl=(${Infc:2:10})
 
-echo $cl
 
 # showing current mac and permanent mac using macchanger
 
@@ -52,8 +51,9 @@ echo " "
 
 sudo macchanger -r "$cl"
 
+# Clearing logs 
 
-
+sudo rm-rf logs
 
 
 
