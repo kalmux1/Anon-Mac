@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+figlet -f slant.flf -c "Anon-Mac" 
+
+echo "v1.0"
+
 #Intsalling Macchanger tool
 
 tool=$(sudo apt-get install macchanger)
