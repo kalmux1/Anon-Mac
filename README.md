@@ -1,7 +1,7 @@
 # Anon-Mac
 
 
-A bash script that will change your macc address and provide you with 3 layer encryption 
+A bash script that will change your MAC address and provide you with 3 layer encryption 
 
 
 # **INSTALLATION PROCESS**
