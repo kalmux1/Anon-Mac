@@ -32,7 +32,8 @@ cl=$(cat logs/main_inf.txt)
 
 # showing current mac and permanent mac using macchanger
 
-echo "Current Macc Address Details"
+echo "Current Macc Address Details  ======>"
+echo " "
 sudo macchanger -s "$cl"
 
 sleep 2s
@@ -40,8 +41,8 @@ sleep 2s
 echo " "
 
 # Layer 1 Encryption 
-echo "Encrypting Your Macc Address {Level 1}"
-
+echo "Encrypting Your Macc Address ====> {Level 1}"
+echo " "
 sudo macchanger -r "$cl"
 
 sleep 2s
@@ -49,8 +50,8 @@ sleep 2s
 echo " "
 
 # Layer 2 Encryption 
-echo "Encrypting Your Macc Address {Level 2}"
-
+echo "Encrypting Your Macc Address ====> {Level 2}"
+echo " "
 sudo macchanger -r "$cl"
 
 sleep 2s
@@ -58,14 +59,21 @@ sleep 2s
 echo " "
 
 # Layer 3 Encryption 
-echo "Encrypting Your Macc Address {Level 3}"
-
+echo "Encrypting Your Macc Address ====> {Level 3}"
+echo " "
 sudo macchanger -r "$cl"
 
 # Clearing logs 
 
 sudo rm -rf logs
 
+# Exiting From The tool
+
+echo " "
+ehco " "
+echo "                Visit to my github for more hacking tools https://github.com/kalmux1"
+echo "                                  Thanks for using this tool                        "
+echo "                                         Hack daily                                 "
 
 
 
