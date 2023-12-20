@@ -9,8 +9,8 @@ figlet -f slant.flf -c "Anon-Mac"
 # Author Details
 
 echo "                         Cretaed By KALMUX       v1.0"
-echo "                 Installing required packages for your system        "
-echo "              This may take some time based on your Internet speed    "
+echo "              Installing required packages for your system        "
+echo "           This may take some time based on your Internet speed    "
 echo " "
 
 #Intsalling Macchanger tool
