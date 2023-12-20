@@ -15,7 +15,7 @@ echo " "
 
 #Intsalling Macchanger tool
 
-tool=$(sudo apt-get install macchanger)
+tool=$(sudo apt-get install macchanger) echo "|"
 
 # Creating a support Directory 
 
