@@ -19,17 +19,16 @@ mkdir logs
 
 # Storing details from ifconfig command to ifs.txt file
 
-file=$(ifconfig -s > logs/ifs.txt)
+file=$(ifconfig -s > logs/inf.txt)
 
 # grepping 2nd line wich contain interface value
 
-Infc=$(grep -n 2 logs/ifs.txt)
+INFC=$(awk 'NR == 2 {print $1}' inf.txt > inf.txt )
 
 
 # storing interface name into cl var 
 
-cl=(${Infc:2:10})
-
+cl=$(cat inf.txt)
 
 # showing current mac and permanent mac using macchanger
 
