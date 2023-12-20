@@ -70,7 +70,7 @@ sudo rm -rf logs
 # Exiting From The tool
 
 echo " "
-ehco " "
+echo " "
 echo "                Visit to my github for more hacking tools https://github.com/kalmux1"
 echo "                                  Thanks for using this tool                        "
 echo "                                         Hack daily                                 "
