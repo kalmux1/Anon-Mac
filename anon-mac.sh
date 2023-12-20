@@ -8,7 +8,7 @@ figlet -f slant.flf  "Anon-Mac"
 
 # Author Details
 
-echo "                  Cretaed By KALMUX       v1.0"
+echo "            Cretaed By KALMUX       v1.0"
 echo "    Installing required packages for your system        "
 echo "This may take some time based on your Internet speed    "
 echo " "
@@ -54,7 +54,7 @@ echo " "
 
 # Layer 2 Encryption 
 echo "-------------------------------------------------"
-echo " Encrypting Your Macc Address ====> {Level 2}"
+echo "  Encrypting Your Macc Address ====> {Level 2}"
 echo " "
 sudo macchanger -r "$cl"
 sleep 2s
@@ -63,7 +63,7 @@ echo " "
 
 # Layer 3 Encryption 
 echo "-------------------------------------------------"
-echo " Encrypting Your Macc Address ====> {Level 3}"
+echo "  Encrypting Your Macc Address ====> {Level 3}"
 echo " "
 sudo macchanger -r "$cl"
 echo "-------------------------------------------------"
@@ -76,7 +76,6 @@ sudo rm -rf logs
 
 echo " "
 echo " "
-echo " Visit to my github for more hacking tools https://github.com/kalmux1"
 echo "                    Thanks for using this tool                        "
 echo "                            Hack daily                                 "
 
