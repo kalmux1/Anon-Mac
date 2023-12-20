@@ -76,8 +76,8 @@ sudo rm -rf logs
 
 echo " "
 echo " "
-echo "                    Thanks for using this tool                        "
-echo "                            Hack daily                                 "
+echo "         Thanks for using this tool    "
+echo "                 Hack daily            "
 
 
 
