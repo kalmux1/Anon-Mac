@@ -3,7 +3,7 @@
 # Banner Display
 
 echo " "
-apt=$(sudo apt install figlet)
+apt=$(sudo apt-get install figlet)
 figlet -f slant.flf -c "Anon-Mac" 
 
 # Author Details
