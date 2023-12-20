@@ -23,12 +23,12 @@ file=$(ifconfig -s > logs/infs.txt)
 
 # grepping 2nd line wich contain interface value
 
-INFC=$(awk 'NR == 2 {print $1}' logs/infs.txt > main_inf.txt )
+INFC=$(awk 'NR == 2 {print $1}' logs/infs.txt > logs/main_inf.txt )
 
 
 # storing interface name into cl var 
 
-cl=$(cat main_inf.txt)
+cl=$(cat logs/main_inf.txt)
 
 # showing current mac and permanent mac using macchanger
 
@@ -64,7 +64,7 @@ sudo macchanger -r "$cl"
 
 # Clearing logs 
 
-#sudo rm -rf logs
+sudo rm -rf logs
 
 
 
