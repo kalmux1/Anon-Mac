@@ -16,6 +16,6 @@ A bash script that will change your MAC address and provide you with 3 layer enc
 # Traverse Into The Anon-Mac Directory
     $ cd Anon-Mac
 # Provide Executable Permission to The Bash Script 
-    $ sudo chmod 777 anon-mac.sh
+    $ sudo chmod +x anon-mac.sh
 # Run Tool Using sudo bash Command 
     $ sudo bash anon-mac.sh  
