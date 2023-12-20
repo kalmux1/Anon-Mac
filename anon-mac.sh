@@ -35,38 +35,38 @@ INFC=$(awk 'NR == 2 {print $1}' logs/infs.txt > logs/main_inf.txt )
 cl=$(cat logs/main_inf.txt)
 
 # showing current mac and permanent mac using macchanger
-echo " --------------------------------------------"
-echo "Current Macc Address Details  ======>"
+echo "-----------------------------------------------"
+echo "       Current Macc Address Details"
 echo " "
 sudo macchanger -s "$cl" 
 sleep 2s
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 echo " "
 
 # Layer 1 Encryption 
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 echo "Encrypting Your Macc Address ====> {Level 1}"
 echo " "
 sudo macchanger -r "$cl"
 sleep 2s
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 echo " "
 
 # Layer 2 Encryption 
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 echo "Encrypting Your Macc Address ====> {Level 2}"
 echo " "
 sudo macchanger -r "$cl"
 sleep 2s
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 echo " "
 
 # Layer 3 Encryption 
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 echo "Encrypting Your Macc Address ====> {Level 3}"
 echo " "
 sudo macchanger -r "$cl"
-echo " --------------------------------------------"
+echo "-----------------------------------------------"
 
 # Clearing logs 
 
