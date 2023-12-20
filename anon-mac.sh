@@ -64,7 +64,7 @@ sudo macchanger -r "$cl"
 
 # Clearing logs 
 
-sudo rm -rf logs
+#sudo rm -rf logs
 
 
 
