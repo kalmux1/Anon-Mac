@@ -45,7 +45,7 @@ echo " "
 
 # Layer 1 Encryption 
 echo "-----------------------------------------------"
-echo "Encrypting Your Macc Address ====> {Level 1}"
+echo "  Encrypting Your Macc Address ====> {Level 1}"
 echo " "
 sudo macchanger -r "$cl"
 sleep 2s
@@ -76,9 +76,9 @@ sudo rm -rf logs
 
 echo " "
 echo " "
-echo "       Visit to my github for more hacking tools https://github.com/kalmux1"
-echo "                         Thanks for using this tool                        "
-echo "                                Hack daily                                 "
+echo " Visit to my github for more hacking tools https://github.com/kalmux1"
+echo "                    Thanks for using this tool                        "
+echo "                            Hack daily                                 "
 
 
 
