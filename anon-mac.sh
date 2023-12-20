@@ -15,7 +15,7 @@ echo " "
 
 #Intsalling Macchanger tool
 
-tool=$(sudo apt-get install macchanger) echo "|"
+tool=$(sudo apt-get install macchanger) 
 
 # Creating a support Directory 
 
@@ -38,7 +38,7 @@ cl=$(cat logs/main_inf.txt)
 
 echo "Current Macc Address Details  ======>"
 echo " "
-sudo macchanger -s "$cl"
+sudo macchanger -s "$cl" | echo "|"
 
 sleep 2s
 
