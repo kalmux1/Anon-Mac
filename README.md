@@ -1,7 +1,7 @@
 # Anon-Mac
 
 
-A bash script that will change your MAC address and provide you with 3 layer encryption 
+Crafted using macchanger, this bash script transforms your MAC address while implementing a robust three-layer encryption system. This tool not only alters your MAC address for enhanced privacy but also reinforces security through advanced encryption layers. The script offers a seamless solution for users seeking both anonymity and heightened data protection in their network activities.
 
 
 # **INSTALLATION PROCESS**
